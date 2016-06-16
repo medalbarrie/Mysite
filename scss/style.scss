@@ -1,0 +1,60 @@
+$higlight : #FF0044;
+$Main:#E6E0CB;
+html,
+body {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	 font-family: 'Open Sans', sans-serif;
+	 font-size: 20px;
+}
+
+h1{
+	 margin: 0;
+	 padding: 0;
+	 color: $Main;
+}
+.cover {
+	 width: 100%;
+	 height: 100vh;
+	 background-image: url();
+	 background-color: $higlight;
+	 background-size: cover;
+	 background-position: center center;
+	 .cover-text {
+	 	  position: absolute;
+	 	  width: 500px;
+	 	  height: 500px;
+	 	  left:50%;
+	 	  top: 40%;
+	 	  margin-left: -250px;
+	 	  margin-top: -250px;
+	 	  text-align: center;
+	 	  color: white;
+	 	  word-spacing: 2px;
+	 	  p {
+	 	  	 text-align: center;
+	 	  	 color: $Main;
+	 	  	 font-size: 1.1em;
+	 	  	 padding-bottom: 0.5em;
+	 	  	 padding-top: 0.5em;
+	 	  }
+	 }
+}
+
+.img-circle {
+	 border-radius: 50%;
+}
+
+.icon	{
+	 a {
+	 	 text-decoration:none;
+	 	 margin-right: 5px;
+	 	 i {
+	 	 	 font-size: 20px;
+	 	 	 color: $Main;
+	 	 }
+	 }
+}
