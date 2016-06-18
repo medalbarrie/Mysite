@@ -46,3 +46,5 @@ h1 {
   .icon a i {
     font-size: 20px;
     color: #E6E0CB; }
+    .icon a i:hover {
+      color: #FF0044; }
