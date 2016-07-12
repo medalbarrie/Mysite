@@ -1,50 +1,63 @@
 html,
 body {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px; }
+  font-size: 20px;
+}
 
 h1 {
   margin: 0;
   padding: 0;
-  color: #E6E0CB; }
+  color: #E6E0CB;
+}
 
 .cover {
   width: 100%;
   height: 100vh;
   background-image: url(img/background.jpg);
-  background-color: #FF0044;
   background-size: cover;
-  background-position: center center; }
-  .cover .cover-text {
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    left: 50%;
-    top: 40%;
-    margin-left: -250px;
-    margin-top: -250px;
-    text-align: center;
-    color: white;
-    word-spacing: 2px; }
-    .cover .cover-text p {
-      text-align: center;
-      color: #E6E0CB;
-      font-size: 1.1em;
-      padding-bottom: 0.5em;
-      padding-top: 0.5em; }
+  background-position: center center;
+}
+
+.cover .cover-text {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 50%;
+  top: 40%;
+  margin-left: -250px;
+  margin-top: -250px;
+  text-align: center;
+  color: white;
+  word-spacing: 2px;
+}
+
+.cover .cover-text p {
+  text-align: center;
+  color: #E6E0CB;
+  font-size: 1.1em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+}
 
 .img-circle {
-  border-radius: 50%; }
+  border-radius: 50%;
+}
 
 .icon a {
   text-decoration: none;
-  margin-right: 5px; }
-  .icon a i {
-    font-size: 20px;
-    color: #E6E0CB; }
-    .icon a i:hover {
-      color: #FF0044; }
+  margin-right: 5px;
+}
+
+.icon a i {
+  font-size: 20px;
+  color: #E6E0CB;
+}
+
+.icon a i:hover {
+  color: #FF0044;
+}
