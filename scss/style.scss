@@ -9,17 +9,20 @@ body {
 body {
 	 font-family: 'Open Sans', sans-serif;
 	 font-size: 20px;
+	  
+
 }
 
 h1{
 	 margin: 0;
 	 padding: 0;
 	 color: $Main;
+
 }
 .cover {
 	 width: 100%;
-	 height: 100vh;
-	 background-image: url(img/background.jpg);
+	 height: 1000px;
+	 background-image:linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.50)), url(img/background.jpg);
 	 background-size: cover;
 	 background-position: center center;
 	 .cover-text {
@@ -31,7 +34,7 @@ h1{
 	 	  margin-left: -250px;
 	 	  margin-top: -250px;
 	 	  text-align: center;
-	 	  color: white;
+	 	  color: $Main;
 	 	  word-spacing: 2px;
 	 	  p {
 	 	  	 text-align: center;
@@ -45,16 +48,23 @@ h1{
 
 .img-circle {
 	 border-radius: 50%;
+	 &:hover {
+	 	transform:scale(1.3);
+	 	transition: .3 all ease-out;
+	 }
 }
 
 .icon	{
+	   margin-top: 30px;
 	 a {
 	 	 text-decoration:none;
 	 	 margin-right: 5px;
+	 	 
 
 	 	 i {
-	 	 	 font-size: 20px;
-	 	 	 color: $Main;
+
+	 	 	 font-size: 30px;
+	 	 	 color: #fff;
 	 	 	  &:hover {
 	 	 	 color: $higlight;
 	 	 }
